@@ -1,0 +1,7 @@
+pymongo>=4.6,<5
+Django>=4.2,<6
+streamlit>=1.50
+requests>=2.31
+pandas>=2.0
+plotly>=5.20
+mongomock>=4.1

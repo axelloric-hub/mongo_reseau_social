@@ -1,0 +1,46 @@
+
+== Volumes (minimums du PDF et du cahier des charges)
+[OK    ] 150 utilisateurs (150)
+[OK    ] 30 groupes (30)
+[OK    ] au moins 500 publications (600)
+[OK    ] au moins 1000 commentaires (1150)
+[OK    ] au moins 2000 messages (2455)
+[OK    ] environ 3000 notifications (>= 3000 exige) (3050)
+[OK    ] 10 publications pour valdez_237 (10)
+
+== Proportions
+[OK    ] volume de publications influenceur ~ 70 % (70.0 %)
+[OK    ] volume de publications normal ~ 25 % (25.0 %)
+[OK    ] volume de publications timide_reseau ~ 5 % (5.0 %)
+[OK    ] groupes populaire ~ 50.0 % (15 groupes)
+[OK    ] groupes moins_populaire ~ 36.7 % (11 groupes)
+[OK    ] groupes restreint ~ 13.3 % (4 groupes)
+[OK    ] tailles de groupes 10 / 25 / 35 / 85 ({10: 10, 25: 8, 35: 8, 85: 4})
+[OK    ] utilisateurs a 0, 1 et plusieurs groupes ({0: 22, 1: 7, 2: 8, 3: 5, 4: 9, 5: 14, 6: 11, 7: 15, 8: 12, 9: 9, 10: 13, 11: 11, 12: 9, 13: 3, 14: 1, 16: 1})
+[OK    ] pseudos uniques 
+[OK    ] 150 noms distincts 
+[OK    ] publications avec 0 et plusieurs hashtags ({0: 102, 1: 192, 2: 214, 3: 92})
+[OK    ] 1 a 3 preferences par utilisateur 
+
+== Coherence referentielle (aucune reference orpheline)
+[OK    ] publications -> auteur / groupe 
+[OK    ] commentaires -> publication / auteur 
+[OK    ] reponses -> auteur 
+[OK    ] chaque groupe : createur membre et administrateur 
+[OK    ] administrateurs -> membres 
+[OK    ] membres -> utilisateurs 
+[OK    ] utilisateurs.groupes_ids = membres des groupes 
+[OK    ] amities symetriques et existantes 
+[OK    ] messages prives -> utilisateurs 
+[OK    ] messages de groupe -> groupe / expediteur membre / non_lu_par membres 
+[OK    ] notifications -> utilisateur 
+
+== Notifications coherentes avec les evenements
+[OK    ] chaque notification pointe vers un evenement existant 
+[OK    ] etat lu / non lu identique entre messages et notifications 
+[OK    ] aucune notification datee apres le dernier evenement 
+[OK    ] commentaires posterieurs a leur publication 
+[OK    ] compteur j'aime = taille de la liste des j'aime 
+[OK    ] compteur de commentaires exact 
+
+== Resume : TOUT EST COHERENT

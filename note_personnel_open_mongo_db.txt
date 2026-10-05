@@ -1,0 +1,9 @@
+comment ouvrir mongoDb note pour axel
+compte admin where mongod
+
+mkdir c:data\db
+
+"C:\Program Files\MongoDB\Server\8.2\bin\mongod.exe" --dbpath C:\data\db
+
+dans un deuxième terminale mongosh
+après use reseau_social puis show collections et db.utilisateurs.countDocuments()
